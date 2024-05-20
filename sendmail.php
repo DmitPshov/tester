@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "dpushn@gmail.com";
     $subject = "Новое сообщение с вашего сайта от $name";
     $email_content = "Имя: $namen";
-    $email_content .= "Email: $emailnn";
-    $email_content .= "Сообщение:n$messagen";
+    $email_content .= "Email: $email";
+    $email_content .= "Сообщение:n$message";
 
     // Заголовки письма
     $email_headers = "From: $name <$email>";
